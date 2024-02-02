@@ -1,0 +1,46 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+nav {
+    background: transparent !important;
+}
+
+section {
+    height: 100vh;
+}
+
+#home {
+    background: url(images/backround.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home h1,
+#home p {
+    color: black;
+}
+
+#home p.lead {
+    color: #000; 
+}
+
+.custom-col {
+    margin: 25%;
+}
+
+i {
+    color: black;
+}
