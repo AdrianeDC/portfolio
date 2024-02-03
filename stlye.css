@@ -4,7 +4,10 @@ html {
 
 body {
     margin: 0;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
 }
+
 
 html::-webkit-scrollbar {
     display: none;
@@ -43,4 +46,91 @@ section {
 
 i {
     color: black;
+}
+
+
+.grad-pic {
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin-right: auto; 
+    margin-left: 0;
+}
+
+.img-hero{
+    height: auto;
+}
+
+.spacing{
+    margin-top: 10%;
+}
+
+.card {
+    margin-bottom: 20px; 
+}
+
+.card-link {
+    display: block;
+    height: 100%;
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.contact-card {
+    height: 100%; 
+}
+
+
+
+#contacts {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+
+#contacts .container {
+    text-align: center;
+}
+
+
+#contacts h2 {
+    font-size: 2.5rem;
+}
+
+
+#contacts p.lead {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+
+#contacts .row {
+    justify-content: center;
+}
+
+
+#contacts .col-md-4 {
+    margin-bottom: 30px;
+}
+
+
+#contacts .card {
+    padding: 30px;
+}
+
+
+#contacts .card i {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#contacts .card h5 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+
+.custom-mt-5 {
+    margin-top: 50px; 
 }
